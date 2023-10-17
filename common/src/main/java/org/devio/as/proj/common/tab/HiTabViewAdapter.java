@@ -10,6 +10,10 @@ import org.devio.hi.ui.tab.bottom.HiTabBottomInfo;
 
 import java.util.List;
 
+/**
+ * 通过添加适配器的方式，来对HiFragmentTabView的相关逻辑操作进行解耦
+ * 
+ */
 public class HiTabViewAdapter {
 
     private List<HiTabBottomInfo<?>> mInfoList;

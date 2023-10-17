@@ -156,6 +156,9 @@ public class MainActivityLogic {
         fragmentTabView.setAdapter(tabViewAdapter);
     }
 
+    /**
+     * MainActivity实现该接口，用于宿主Activity向MainActivityLogic提供Activity相关的方法
+     */
     public interface ActivityProvider {
         <T extends View> T findViewById(@IdRes int id);
 
